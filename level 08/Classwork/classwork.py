@@ -1,22 +1,22 @@
 #task 1
 
-#outputs False
+#False
 print(5>10)
 
-#outputs True
+#True
 print(100<230)
 
 a = 7
 b = 7
-print(a==b) #outputs True
+print(a==b) #True
 
 #task 2
-print(True and True) #outputs True
-print(True and False) #outputs False
-print(True or False) #outputs True
+print(True and True) #True
+print(True and False) #False
+print(True or False) #True
 
 #task 3
-print(5>10 and 100<230 ) #outputs False
-print(5>10 or a==b) #outputs True
+print(5>10 and 100<230 ) #False
+print(5>10 or a == b) #True
 
 
