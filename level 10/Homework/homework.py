@@ -55,7 +55,7 @@ while grade <= 7:
 age = 10
 while age < 50:
     print(age)
-    age += 5
+    age += 5 
 
 weight = 20
 while weight < 56:
