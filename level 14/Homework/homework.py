@@ -19,7 +19,7 @@ print(list1[-1])
 list1[5] = 27
 
 #task 4 - Replace the fifth element of a list with a new value.
-list1[5] = 333
+list1[4] = 333
 
 #task 5 - Extract the last three elements of a list.
 print(list1[3:6])
