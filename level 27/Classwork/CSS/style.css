@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Grey+Qo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Grey+Qo&family=Matemasie&family=Noto+Sans+JP:wght@100..900&display=swap');
+
+
+h1{
+    font-family:"Grey Qo", cursive;
+}
+
+h2{
+    font-family: "Bungee Tint", sans-serif ;
+}
+
+p{
+    font-family: "Matemasie", sans-serif;
+}

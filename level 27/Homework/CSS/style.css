@@ -1,0 +1,48 @@
+/*task 2*/
+#p1{
+    text-decoration: overline dashed pink;
+}
+
+#p2{
+    text-decoration: overline dottedpink pink;
+}
+
+#p3{
+    text-decoration: overline double pink;
+}
+
+#p4{
+    text-decoration: line-through dashed pink;
+}
+
+#p5{
+    text-decoration: line-through dotted pink ;
+}
+
+#p6{
+    text-decoration: line-through double pink;
+}
+
+#p7{
+    text-decoration: underline dashed pink;
+}
+
+#p8{
+    text-decoration: underline dotted pink;
+}
+
+#p9{
+    text-decoration: underline double pink;
+}
+
+#p10{
+    text-decoration: underline wavy pink;
+}
+
+#p11{
+    text-decoration: overline solid pink;
+}
+
+#p12{
+    text-decoration: line-through pink;
+}

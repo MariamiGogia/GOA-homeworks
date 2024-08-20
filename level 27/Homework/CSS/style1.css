@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Matemasie&family=Noto+Sans+JP:wght@100..900&family=Sankofa+Display&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Matemasie&family=Noto+Sans+JP:wght@100..900&family=Sankofa+Display&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Matemasie&family=Noto+Sans+JP:wght@100..900&family=Sankofa+Display&family=Shadows+Into+Light&display=swap');
+h1{
+    font-family: "Dancing Script", sans-serif;
+
+}
+
+h2{
+    font-family: "Shadows Into Light", sans-serif;
+}
+
+h3{
+    font-family: "Sankofa Display", sans-serif;
+}
