@@ -1,0 +1,93 @@
+table, td, th{
+    border: solid rgb(166, 166, 166);
+    font-family: sans-serif;
+    color: grey;
+    
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    width:250px;
+    height: 50px;
+    
+}
+
+.title{
+    text-align: left;
+    background-color: #1a1a1a;
+    font-size: large;
+    
+}
+
+tr:nth-child(even){
+    background-color: rgb(234, 234, 234);
+}
+
+tr:nth-child(odd){
+    background-color: white;
+}
+
+body{
+    background-color: rgb(52, 113, 211);
+}
+
+h2{
+    color: white;
+    font-family: sans-serif;
+}
+
+/*task 4*/
+
+button{
+    font-size: 30px;
+    margin: -3px;
+    font-family: sans-serif;
+}
+
+#b1:hover{
+    background-color: rgb(19, 200, 19) ;
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: 33px;
+}
+#b2:hover{
+    background-color: rgba(9, 120, 9, 0.995) ;
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: 33px;
+}
+#b3:hover{
+    background-color: rgba(13, 95, 13, 0.797) ;
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: 33px;
+}
+#b4:hover{
+    background-color: rgba(3, 65, 3, 0.685) ;
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+
+#b5:hover{
+    background-color: green ;
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: 40px;
+}
+#b6:hover{
+    background-color: white ;
+    color: #1a1a1a;
+    font-family: cursive;
+    font-size: 40px;
+}
+#b7:hover{
+    background-color: red ;
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: 40px;
+}
