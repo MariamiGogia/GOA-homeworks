@@ -1,0 +1,27 @@
+/*task 2*/
+#div1{
+    background-color: green;
+    border: 2px solid rgb(8, 62, 8);
+    width: 50px;
+    height: 40px;
+    border-radius: 360px 0 360px 0;
+  
+}
+
+#div2{
+    background-color: yellow;
+    border: 2px solid rgb(207, 207, 5);
+    width: 220px;
+    height: 150px;
+    border-radius: 0 360px 0 360px;
+}
+#div2:hover{
+    box-shadow: 0 0 50px rgb(255, 255, 116);
+    transition: 0.4s;
+    width: 222px;
+    height: 152px;
+}
+#div1:hover{
+    box-shadow: 0 0 20px greenyellow;
+    transition: 0.4s;
+}

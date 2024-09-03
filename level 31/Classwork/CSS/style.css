@@ -1,0 +1,70 @@
+/*task 1*/
+ul{
+    list-style: circle outside none;
+}
+
+ol{
+    list-style-type: lower-greek;
+    list-style-position: inside;    
+}
+#li1{
+    color: blue;
+}
+#li2{
+    color: green;
+}
+#li3{
+    color: red;
+}
+#li4{
+    color: whitesmoke;
+}
+
+/*task 2*/
+label{
+    font-family: cursive;    
+}
+input[type=text]{
+    border-radius: 20px;
+    background-color: aquamarine;
+    color: black;
+}
+input[type=gmail]{
+    border-radius: 20px;
+    background-color: aquamarine;
+    color: black;
+}
+input[type=submit]{
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: 13px;
+}
+input[type=submit]:active{
+    background-color: aquamarine;
+    font-size: 15px;
+
+}
+
+/*task 3*/
+button{
+    border: 3px solid rgb(3, 62, 3);
+    border-radius: 0 360px 0 360px;
+    font-size: 32px;
+    background-color: green;
+    width: 150px;
+    height: 100px;
+    font-family: sans-serif;
+    transition: 0.4s;
+}
+
+button:hover{
+    background-color: rgb(38, 180, 38);
+    font-family: cursive;
+    font-size: 20px;
+    box-shadow: 0 0 35px green;
+    text-shadow: 0 0 15px whitesmoke;
+}
+
+
+
+
