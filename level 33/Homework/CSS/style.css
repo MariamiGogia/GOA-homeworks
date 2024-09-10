@@ -1,0 +1,47 @@
+/*task 4*/
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color:rgb(250, 157, 172);
+    height: 30px;
+}
+
+a{
+    text-decoration: none;
+    font-size: large;
+    color: white ;
+}
+body{
+    background-color: rgb(215, 181, 186);
+}
+h2, p, h1{
+    color: white;
+
+}
+.div2{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(250, 157, 172);
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+footer{
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-color:rgb(250, 157, 172);
+    border: 1px dashed white;
+    justify-content: center;
+    float: right;
+
+}
