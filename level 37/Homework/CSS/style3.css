@@ -1,0 +1,39 @@
+/*task 5*/
+
+.div{
+    background-color:grey;
+    font-size: 30px;
+    color: azure;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent1{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 150px);
+    gap: 20px;
+}
+
+
+/*task 4*/
+.diva{
+    background-color:grey;
+    font-size: 30px;
+    color: azure;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+}
+.parent2, .parent3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
