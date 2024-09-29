@@ -1,0 +1,43 @@
+#div1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+#div1:hover{
+    transform: translate(50px, 0px);
+}
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+#div2:hover{
+    transform: scale(2);
+}
+#div3{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+#div3:hover{
+    transform: scale(1.5);
+}
+#div3:active{
+    transform: scale(0.9);
+}
+#div4{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+#div4:hover{
+    transform: rotate(180deg);
+}

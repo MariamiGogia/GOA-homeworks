@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 675px;
+    width: 375px;
+    border-radius: 15px;
+    background-color:hsl(0, 0%, 12%) ;
+}
+#photo{
+    display: flex;
+    justify-content: center;
+}
+img{
+    border-radius: 100px;
+    width: 100px;
+    margin: 40px
+}
+.title{
+   display: flex;
+   justify-content: center;
+   font-size: 25px;
+   font-family: "Inter";
+   color: white;
+   margin: -30px;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+    font-family: "Inter";
+}
+.sent{
+    color: grey;
+    font-family: "Inter";
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin: -5px;
+
+}
+.boxes{
+    font-size: 14px;
+    font-family: "Inter";
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px;
+    gap: 20px;
+}
+#div1, #div2, #div3, #div4, #div5{
+    background-color:  hsl(0, 0%, 20%);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    transition: background-color 1s;
+}
+#div1:hover, #div2:hover, #div3:hover, #div4:hover, #div5:hover{
+    background-color: hsl(75, 94%, 57%);
+}
