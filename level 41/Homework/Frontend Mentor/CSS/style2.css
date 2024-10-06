@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    font-family: "Figtree", sans-serif;
+}
+body{
+    background-color:hsl(47, 88%, 63%) ;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 375px;
+    height: 515px;
+    border: 1px solid hsl(0, 0%, 7%) ;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 10px 7px 0px hsl(0, 0%, 7%)
+}
+#photo{
+    display: flex;
+    justify-content: center;
+}
+#img1{
+    margin: 20px;
+    border-radius: 15px;
+    width: 90%;
+}
+button{
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    width: 75px;
+    height: 25px;
+    border-radius: 3px;
+}
+.button{
+    font-size: 15px;
+    margin: 20px;
+}
+#title{
+    margin: 20px;
+    color:  hsl(0, 0%, 7%);
+}
+h2:hover{
+    color: hsl(47, 88%, 63%);
+}
+#text{
+    font-size: 16px;
+    color: hsl(0, 0%, 42%) ;
+    margin: 20px;
+}
+.profile{
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#name{
+    color: hsl(0, 0%, 7%) ;
+    font-size: 14px;
+    margin: 0px;
+}
+#img2{
+    width: 30px;
+    height: 30px;
+}
