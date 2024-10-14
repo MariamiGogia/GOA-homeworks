@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-color:hsl(225, 100%, 98%);
+    width: 25%;
+    height: 80%;
+    border-radius: 15px;
+    
+}
+#photo1{
+   width: 100%;
+   border-radius: 15px 15px 0 0;
+}
+
+h2{
+    color:hsl(223, 47%, 23%) ;
+    font-weight: 900;
+}
+.button{
+    background-color: hsl(224, 100%, 96%) ;
+    width: 300px ;
+    height: 70px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 40px;
+}
+#p1{
+    color:hsl(223, 47%, 23%);
+    font-weight: 700;
+    font-size: 16px;
+}
+#p2{
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+#p3{
+    color:hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-size: 16px;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+}
+.parent{
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+button{
+    border: none;
+    width: 300px;
+    height: 40px;
+    background-color:  hsl(245, 75%, 52%);
+    border-radius: 10px;
+    color:hsl(225, 100%, 98%) ;
+    font-weight: 700;
+    margin: 30px;
+    box-shadow: 1px 1px 5px 1px  hsl(245, 75%, 52%) ;
+    transition: 1s;
+}
+button:hover{
+    background-color: hsl(245, 82%, 65%);
+}
+#p5{
+    font-weight: 700;
+    color:hsl(224, 23%, 55%) ;
+    font-size: 16px;
+}
+#p4{
+    margin: 20px;
+    color: hsl(224, 23%, 55%);
+}
