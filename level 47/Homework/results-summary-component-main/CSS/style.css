@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Hanken Grotesk";
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(221, 100%, 96%) ;
+}
+.body{
+    width: 38%;
+    height: 52%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%) );
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 44px;
+    box-sizing: border-box;
+    gap: 15px;
+}
+#p1, #p2, #p3{
+    color:hsl(241, 100%, 89%) ;
+    font-weight: 500;
+}
+#circle{
+    width: 140px;
+    height: 150px;
+    border-radius: 360px;
+    background-image:linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#p2{
+    font-size: 13px;
+}
+#p1{
+    font-size: 18px;
+    font-weight: 500;
+}
+#p3{
+    font-size: 14px;
+}
+.right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#div1, #div2, #div3, #div4{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#div1_1, #div2_2, #div3_3, #div4_4{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    font-weight: 500;
+}
+#div1_1{
+    color: hsl(0, 100%, 67%);
+}
+#div2_2{
+    color: hsl(39, 100%, 56%);
+}
+#div3_3{
+    color: hsl(166, 100%, 37%);
+}
+#div4_4{
+    color: hsl(234, 85%, 45%);
+}
+.containers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+#div1{
+    background-color:hsla(0, 100%, 67%, 0.1) ;
+}
+#div2{
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+#div3{
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+#div4{
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+.num{
+    color: gray;
+}
+span{
+    font-weight: 800;
+    color: hsl(224, 30%, 27%);
+}
+button{
+    width: 250px;
+    height: 45px;
+    border-radius: 50px;
+    font-weight: 500;
+    color: white;
+    background-color:  hsl(224, 30%, 27%);
+    border: none;
+    font-size: 15px;
+}
+button:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
