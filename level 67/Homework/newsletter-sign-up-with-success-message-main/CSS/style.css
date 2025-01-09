@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+p{
+    font-size: 16px;
+    color: hsl(235, 18%, 26%);
+}
+body{
+    background-color: hsl(235, 18%, 26%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    box-sizing: border-box;
+    height: 75%;
+    width: 55%;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    padding: 30px;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+#rm{
+    height: 480px;
+}
+#left{
+   padding: 45px;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+}
+#header{
+    font-size: 55px;
+    font-weight: 700;
+    color:hsl(234, 29%, 20%) ;
+}
+.list{
+   display: flex;
+   align-items: center; 
+   gap: 8px;
+}
+#e{
+    height: 45px;
+    width: 350px;
+    border-radius: 7px;
+    border: 1px solid hsl(231, 7%, 60%);
+    color: hsl(231, 7%, 60%);
+    box-sizing: border-box;
+    padding: 15px;
+}
+label{
+    color: hsl(234, 29%, 20%);
+    font-size: 12px;
+    font-weight: 700;
+}
+#submit{
+    height: 45px;
+    width: 350px; 
+    border-radius: 7px;
+    border: none;
+    background-color: hsl(234, 29%, 20%);
+    text-align: center;
+    color: white;
+}
+#submit:hover{
+    background-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+}
+#up{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#medium{
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+#error p{
+    font-size: 12px;
+    font-weight: 500;
+    display: none;
+}
+#error{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+/* Message sent*/
+#message{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 360px;
+    width: 355px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 30px;
+    gap: 25px;
+    position: absolute;
+    display: none;
+}
+#message img{
+     width: 15%;
+}
+#message p{
+    font-size: 13px;
+}
+#message h1{
+    color: hsl(234, 29%, 20%);
+    font-size: 40px;
+    line-height: 1;
+}
+#message button{
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color:hsl(234, 29%, 20%);
+    align-self: center;
+}
+#message button:hover{
+    background-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+}
+
+
+

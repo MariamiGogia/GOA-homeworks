@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Karla";
+    color: hsl(187, 24%, 22%); 
+}
+body{
+    background-color: hsl(148, 38%, 91%);
+    height: 100vh;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+#main{
+    background-color: hsl(0, 0%, 100%);
+    height: 90%;
+    width: 40%;
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 30px;
+}
+form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#fname, #lname{
+    width: 270px;
+    height: 40px;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 5px;
+}
+#div1, #div2{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#first-row{
+    display: flex;
+    gap: 10px;
+}
+#e{
+    width: 550px;
+    height: 40px;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 5px;
+}
+#second-row, #third-row, #fourth-row{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#query{
+    display: flex;
+    gap: 10px;  
+}
+#radio1, #radio2{
+    color:  hsl(186, 15%, 59%);
+}
+.radio{
+    width: 270px;
+    height: 40px;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 5px; 
+    display: flex;
+    align-items: center;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 20px;
+    gap: 8px;
+}
+#m{
+    width: 550px;
+    height: 90px;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 5px; 
+}
+#contact-consent{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#btn{
+    height: 40px;
+    color: white;
+    background-color: hsl(169, 82%, 27%);
+    border: 1px solid hsl(169, 82%, 27%);
+    border-radius: 5px;
+}
+#btn:hover, #fname:hover, #lname:hover, #m:hover, .radio:hover, #e:hover{
+    cursor: pointer;
+    border-color:hsl(169, 82%, 27%) ;
+}

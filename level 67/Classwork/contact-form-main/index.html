@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./CSS/style.css">
+  
+  <title>Frontend Mentor | Contact form</title>
+</head>
+<body>
+  <div id="main">
+  <h2>Contact Us</h2>
+  <form id="contact-form">
+  <div id="first-row">
+    <div id="div1">
+      <label for="fname">First Name <span style="color: hsl(169, 82%, 27%);">*</span></label>
+      <input type="text" id="fname" name="fname">
+      <span id="fname-error" style="display: none; color: red;">This field is required</span>
+    </div>
+    <div id="div2">
+      <label for="lname">Last Name <span style="color: hsl(169, 82%, 27%);">*</span></label>
+      <input type="text" id="lname" name="lname">
+      <span id="lname-error" style="display: none; color: red;">This field is required</span>
+    </div>
+  </div>
+  
+  <div id="second-row">
+    <label for="e">Email Address <span style="color: hsl(169, 82%, 27%);">*</span></label>
+    <input type="email" id="e" name="email">
+    <span id="email-error" style="display: none; color: red;">This field is required</span>
+  </div>
+  
+  <div id="third-row">
+    <label for="query">Query Type <span style="color: hsl(169, 82%, 27%);">*</span></label>
+    <div id="query">
+      <div class="radio">
+      <input type="radio" name="queryType" id="radio1" value="General Enquiry">
+      <label for="radio1">General Enquiry</label>
+      </div>
+      <div class="radio">
+      <input type="radio" name="queryType" id="radio2" value="Support Request">
+      <label for="radio2">Support Request</label>
+    </div>
+    </div>
+    <span id="query-error" style="display: none; color: red;">Please select a query type</span>
+  </div>  
+  <div id="fourth-row">
+      <label for="m">Message <span style="color: hsl(169, 82%, 27%);">*</span></label>
+      <input type="text" id="m" name="message">
+      <span id="message-error" style="display: none; color: red;">This field is required</span>
+  </div>
+    
+  <div id="contact-consent">
+      <input type="checkbox" name="contactConsent" id="checkbox">
+      <label for="checkbox">I consent to being contacted by the team <span style="color: hsl(169, 82%, 27%);">*</span></label>
+  </div>
+    <span id="consent-error" style="display: none; color: red;">To submit this form, please consent to being contacted</span>
+    
+  <input type="submit" value="Submit" id="btn"> 
+</form>
+</div>
+<script src="./script.js"></script>
+  
+</body>
+</html>
+
+
+
