@@ -1,0 +1,23 @@
+#parent{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+#child{
+    width: 50px;
+    height: 50px;
+    background-color: silver;
+    position: relative;
+}
+
+#parent2{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+#child2{
+    width: 50px;
+    height: 50px;
+    background-color: silver;
+    position: relative;
+}
