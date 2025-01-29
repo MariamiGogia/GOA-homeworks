@@ -1,0 +1,14 @@
+/*task 3*/
+#parent, #parent1{
+    width: 200px;
+    height: 200px;
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#child, #child1{
+    width: 50px;
+    height: 50px;
+    background-color: darkblue;
+}
