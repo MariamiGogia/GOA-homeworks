@@ -39,7 +39,10 @@ bool3 && console.log("He is adult");
 
 
 //task 6
-var number = 10;
-const word = "GOA";
-let statement = true;
-console.log(`${number}, ${word}, ${statement}`);
+{
+  var number = 10;
+  const word = "GOA";
+  let statement = true;
+  console.log(`${number}, ${word}, ${statement}`);
+}
+console.log(number);
