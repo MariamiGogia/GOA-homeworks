@@ -1,0 +1,22 @@
+Modules are files that export code (functions, objects, or variables) and allow other files to import and use it.
+
+How to export:
+Named Export: You can export multiple things from a module.
+Default Export: You can export one thing (a function, class, or object) as the default export.
+
+How to import:
+Named Import: You import specific exports from a module.
+Default Import: You import the default export.
+
+Benefits of using modules:
+Code organization: Helps break up large code into smaller, manageable files.
+Reusability: You can reuse code across different parts of your app.
+Scalability: As your project grows, managing dependencies becomes easier.
+
+How to use in a browser:
+Use the type="module" attribute in a script tag:
+<script type="module" src="app.js"></script>
+
+Important Notes:
+Modules use strict mode by default.
+When using import/export, files should be served over HTTP/HTTPS (not from the local file system).
