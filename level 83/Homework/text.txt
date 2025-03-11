@@ -17,6 +17,3 @@ How to use in a browser:
 Use the type="module" attribute in a script tag:
 <script type="module" src="app.js"></script>
 
-Important Notes:
-Modules use strict mode by default.
-When using import/export, files should be served over HTTP/HTTPS (not from the local file system).
