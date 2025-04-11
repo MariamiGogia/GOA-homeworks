@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
+  <title>Frontend Mentor | GitHub user search app</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="div1">
+      <p id="p1">devfinder</p>
+      <p id="p2">LIGHT <img src="./assets/icon-sun.svg" alt=""></p>
+    </div>
+    <div class="search-box">
+      <input type="text" id="usernameInput" placeholder="Enter GitHub username...">
+      <button onclick="getUser()">Search</button>
+    </div>
+
+    <div class="profile-card" id="profileCard" style="display: none;">
+      <div class="user-header">
+        <img id="avatar" src="" alt="Avatar">
+        <div id="div2">
+          <div>
+          <h2 id="name"></h2>
+          <p id="username"></p>
+          </div>
+          <p id="joined"></p>
+        </div>
+      </div>
+      <p id="bio"></p>
+      <div class="stats">
+        <div>
+          <p>Repos</p>
+          <span id="repos"></span>
+        </div>
+        <div>
+          <p>Followers</p>
+          <span id="followers"></span>
+        </div>
+        <div>
+          <p>Following</p>
+          <span id="following"></span>
+        </div>
+      </div>
+      <div class="links">
+        <div class="link_l">
+        <p><img src="./assets/icon-location.svg" alt=""><span id="location"></span></p>
+        <p><img src="./assets/icon-website.svg" alt=""><span id="blog"></span></p>
+      </div>
+      <div class="link_l">
+        <p><img src="./assets/icon-twitter.svg" alt=""><span id="twitter"></span></p>
+        <p><img src="./assets/icon-company.svg" alt=""><span id="company"></span></p>
+      </div>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
