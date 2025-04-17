@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="number"], input[type="submit"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: navy;
+}
+
+#bookList, #libraryList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.book-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.book-card h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.book-card p {
+    color: #555;
+}
+
+.book-card button {
+    background-color: navy;
+    color: white;
+    border: none;
+    padding: 8px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.book-card button:hover {
+    background-color: navy;
+}
+
+.book-card .delete-btn {
+    background-color: darkred;
+}
+
+.book-card .delete-btn:hover {
+    background-color: darkred;
+}
+
+.book-card .read-btn {
+    background-color: darkslateblue;
+}
+
+.book-card .read-btn:hover {
+    background-color: darkslateblue;
+}
