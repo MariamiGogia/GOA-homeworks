@@ -1,0 +1,24 @@
+Answer the kahoot questions:
+1. str data type is immutable
+2. we know that str is immutable, but it has method called .replace(), this method doesn't change the value, it creates new variable
+with its new value
+3. list - []; dic - {}; tuple - (); set - {}
+4. "I created function", is not correct, because in programming we say that "we declared/defined function"
+5. python is case-sensitive language, because "a" and "A" are not the same symbols for python
+6. print (True + True) will output 2, because True = 1 when we do mathematical excersises
+7. print(1_000_000) will output 1000000, because underscore is ignored for computers, it's for us, so we could easily read code
+8. empty list is Falsey value, everything that is empty, their values will be False
+9. we can create list comprehesion with if statement, for example: [i for i in range(27) if i % 3 == 0]
+10. we can create list comprehesion with if-else statement, for example: [i if i%2 == 0 else "_" for i in range(27)]
+11. yes, we can define function inside function, for example def greet():
+                                                                   def person():
+                                                                     return "Hello, person!"
+                                                                return person()
+12. yes there is error type called "ZeroDivisionError", it will appear when we want a number to be divided by 0
+13. lambda functions are anonymous functions
+14. print(not"") will output True, because empty string has Falsey value and not Falsey means Truthy
+15. in python "Everything is an Object"
+16. is and == operators are not the same, they do differnet things that's why we have both of them
+"The == operator is used to compare the equality of objects
+ The is operator is used to check if different variables are pointing to the same object in memory"
+17. python is high-level programming language, because it's new, easy and far from hardware
