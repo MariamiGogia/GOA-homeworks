@@ -1,0 +1,7 @@
+task 1
+JSX is a syntax extension, that looks alike javascript and XML. JSX - Javascript Syntax XML
+
+task 2
+The Virtual DOM is a copy of the real DOM. When changes happen, it updates the virtual version first, 
+compares it to the old one and then only updates the changed parts in the real DOM. This makes updates 
+faster and improves performance in web apps, so whole code won't be updated.
