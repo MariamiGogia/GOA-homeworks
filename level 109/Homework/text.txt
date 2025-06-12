@@ -1,0 +1,3 @@
+task 2
+informacia romelic gvexmareba, rom componenetebs shoris moxdes interaqcia da komunikacia eswodeba props. mati daxmarebit chven
+shegvidzlia shevcvalot componentis outputi, ra tqma unda amis gamo ufro flexible xdeba componenetebis gamoyenebac.

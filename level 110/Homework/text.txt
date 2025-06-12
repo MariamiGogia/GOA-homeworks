@@ -1,0 +1,11 @@
+//task 2
+container tags aqvs rogorc gamxsneli ise damxuravi tagebi magalitan: <Button><Button/>, xolo self-closing tags aqvs mxolod damxuravi
+tag magalitan: <Button />. mat shoris ki isaa gansxvavaeba, rom self-closing tagit gamodzaxebuli components ver eyoleba children, 
+container tags ki sheidzleba hyavdes children: magalitan <Button> <p>Hello World!</p> <lilButton /> </Button>, am shemtxvevashi
+Button componenets hyavs ori children: paragrafi- Hello World! da kidev erti component
+
+//task 3
+children aris props object-is property, container tag-it gamodzaxebul components sheidzleba hyavdes children, xolo self-closings ver
+eyoleba. props.children amartivebs saqmes da gvexmareba kodi ufro flexible rom iyos, props.children aris yvelaferi
+componenetis gamxsnel da damxurav tagebs shoris da magas gamoitans.
+
