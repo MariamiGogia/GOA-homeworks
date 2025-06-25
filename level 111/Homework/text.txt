@@ -1,0 +1,3 @@
+task 3
+Hook aris function React-shi, romelic gvexmareba mivcet mdgomareoba da modzraobis cikli funqcias, ert-erti hook aris useState()
+romelsac viyenebt monacemistvis mdgomareobis dasayeneblad da is aris ertgvari kavshiri virtula DOM-sa da DOM-s shoris.
