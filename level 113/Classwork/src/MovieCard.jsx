@@ -1,9 +1,9 @@
 import { useState } from "react";
 
-const MovieCard = (props) =>{
+const MovieCard = ({ title, image, description, rating, genre, releaseDate }) =>{
     const [more, setMore] = useState(false);
-    const {title, image, description, rating, genre, releaseDate} = props;
 
+    
     const handleShowMore = () =>{
         setMore(!more)
     }
